@@ -95,15 +95,17 @@ header nav a.current {
   margin: 0 auto 20px auto;
   font-size: 1.2em;
   line-height: 1.6;
+  color: #ffffff; /* Ensures paragraph text is white */
 }
 
 #contact a {
-  color: #159494;
+  color: #ffffff; /* Email link is white */
   text-decoration: none;
   font-weight: bold;
 }
 
 #contact a:hover {
+  color: #eb6d20; /* Hover color for visibility */
   text-decoration: underline;
 }
 
