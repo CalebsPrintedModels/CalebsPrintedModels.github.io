@@ -1,46 +1,24 @@
-/* General Styles */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  color: #ffffff;
-}
-
-header {
-  text-align: center;
-  padding: 60px 20px;
-  background-color: #159494;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #b22222;
-}
-
-p {
-  font-size: 1.2em;
-}
-
-/* Logo */
-.logo {
-  max-width: 150px;      /* Adjust the size as needed */
-  margin-bottom: 20px;   /* Space between logo and header text */
-  display: block;        /* Ensures it sits on its own line */
-  margin-left: auto;
-  margin-right: auto;    /* Centers the logo */
-}
-
 /* Banner */
 .banner {
   width: 100%;
-  height: auto;       /* Keeps full image visible */
+  max-height: 200px;      /* Adjust to taste */
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
-  border-radius: 8px; /* Optional */
+  margin: 0 auto 20px auto;
+  border-radius: 8px;     /* optional rounded edges */
 }
 
+/* Header Text & Button */
+header h1 {
+  font-size: 2.5em;
+  color: #b22222;
+  margin: 10px 0 10px 0;
+}
 
+header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
 
 /* Navigation */
 header nav {
@@ -49,7 +27,7 @@ header nav {
 
 header nav a {
   text-decoration: none;
-  color: #941515; /* Maroon for links */
+  color: #941515; /* Maroon */
   font-weight: bold;
   margin: 0 15px;
   transition: color 0.3s;
@@ -60,14 +38,13 @@ header nav a:hover {
 }
 
 header nav a.current {
-  color: #b22222; /* Maroon for active page */
+  color: #b22222;
   text-decoration: underline;
 }
 
 /* Etsy Button */
 .etsy-button {
   display: inline-block;
-  margin-top: 20px;
   padding: 12px 24px;
   background-color: #eb6d20;
   color: #fff;
@@ -81,58 +58,10 @@ header nav a.current {
   background-color: #e85a4f;
 }
 
-/* About Section */
-#about {
-  padding: 60px 20px;
-  background-color: #111111;
+/* Home Intro */
+#home-intro {
+  padding: 40px 20px;
   text-align: center;
-}
-
-#about p {
-  max-width: 500px;
-  margin: 0 auto;
   font-size: 1.2em;
-  line-height: 1.6;
   color: #ffffff;
-}
-
-/* Contact Section */
-#contact {
-  padding: 60px 20px;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-}
-
-#contact h2 {
-  font-size: 2em;
-  color: #b22222;
-  margin-bottom: 20px;
-}
-
-#contact p {
-  max-width: 500px;
-  margin: 0 auto 20px auto;
-  font-size: 1.2em;
-  line-height: 1.6;
-  color: #ffffff; /* Ensures paragraph text is white */
-}
-
-#contact a {
-  color: #ffffff; /* Email link is white */
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#contact a:hover {
-  color: #eb6d20; /* Hover color for visibility */
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #111111;
-  font-size: 0.9em;
 }
