@@ -93,4 +93,21 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+
+header nav {
+  margin-top: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #941515; /* maroon for your theme */
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #159494; /* teal accent on hover */
+}
+  
 }
