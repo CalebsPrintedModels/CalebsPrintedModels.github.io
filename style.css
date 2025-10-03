@@ -1,10 +1,96 @@
+/* General Styles */
 body {
-  font-family: 'Sancreek', sans-serif;
-  background: #121212;
-  color: #eaeaea;
-  margin: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
 }
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffefd5;
+}
+
 h1 {
-  color: #ff7edb;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  font-size: 2.5em;
+  color: #FF6F61;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Etsy Button */
+.etsy-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #FF6F61; /* Etsy-like orange */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.etsy-button:hover {
+  background-color: #e85a4f;
+}
+
+/* Product Section */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product {
+  background-color: #fff0e0;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #FF6F61;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffefd5;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .product-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
