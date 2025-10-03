@@ -85,3 +85,70 @@ p {
   text-align: left;
   color: #ffffff; /* White text for About Me */
 }
+
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  background-color: #000000; /* Black background to match Home */
+  color: #ffffff; /* White text for readability */
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2em;
+  color: #b22222; /* Maroon heading for contrast */
+  margin-bottom: 20px;
+}
+
+#contact p {
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+#contact a {
+  color: #159494; /* Teal links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Optional Contact Form Styling */
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #941515; /* Maroon border */
+  border-radius: 8px;
+  background-color: #111111; /* Dark input background */
+  color: #ffffff;
+}
+
+#contact input[type="submit"] {
+  background-color: #eb6d20; /* Etsy-style orange */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #e85a4f;
+}
