@@ -24,7 +24,7 @@ p {
 
 /* Logo */
 .logo {
-  max-width: 100px;      /* Adjust the size as needed */
+  max-width: 150px;      /* Adjust the size as needed */
   margin-bottom: 20px;   /* Space between logo and header text */
   display: block;        /* Ensures it sits on its own line */
   margin-left: auto;
