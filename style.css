@@ -22,6 +22,15 @@ p {
   font-size: 1.2em;
 }
 
+/* Logo */
+.logo {
+  max-width: 150px;      /* Adjust the size as needed */
+  margin-bottom: 20px;   /* Space between logo and header text */
+  display: block;        /* Ensures it sits on its own line */
+  margin-left: auto;
+  margin-right: auto;    /* Centers the logo */
+}
+
 /* Navigation */
 header nav {
   margin-top: 20px;
