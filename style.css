@@ -27,7 +27,7 @@ p {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: #eb6d20; /* Etsy-like orange */
+  background-color: #eb6d20;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -41,73 +41,4 @@ p {
 
 /* Product Section */
 .products {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.product {
-  background-color: #fff0e0;
-  border-radius: 12px;
-  padding: 20px;
-  width: 220px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.product img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-.product a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #FF6F61;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.product a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #ffefd5;
-  margin-top: 40px;
-  font-size: 0.9em;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .product-grid {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-header nav {
-  margin-top: 20px;
-}
-
-header nav a {
-  text-decoration: none;
-  color: #941515; /* maroon for your theme */
-  font-weight: bold;
-  margin: 0 15px;
-  transition: color 0.3s;
-}
-
-header nav a:hover {
-  color: #159494; /* teal accent on hover */
-}
-  
-}
+  padding: 40p
