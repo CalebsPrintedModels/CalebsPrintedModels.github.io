@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
-  color: #333;
+  color: #ffffff;
 }
 
 header {
@@ -20,6 +20,28 @@ h1 {
 
 p {
   font-size: 1.2em;
+}
+
+/* Navigation */
+header nav {
+  margin-top: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #941515; /* Maroon for links */
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #159494; /* Teal on hover */
+}
+
+header nav a.current {
+  color: #b22222; /* Maroon for active page */
+  text-decoration: underline;
 }
 
 /* Etsy Button */
@@ -39,65 +61,32 @@ p {
   background-color: #e85a4f;
 }
 
-/* Product Section */
-.products {
-  padding: 40px 20px;
+/* About Section */
+#about {
+  padding: 60px 20px;
+  background-color: #111111;
   text-align: center;
 }
 
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.product {
-  background-color: #fff0e0;
-  border-radius: 12px;
-  padding: 20px;
-  width: 220px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.product img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-.product a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #FF6F61;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.product a:hover {
-  text-decoration: underline;
-}
-
-/* About Section */
 #about p {
   max-width: 500px;
+  margin: 0 auto;
   font-size: 1.2em;
-  text-align: left;
-  color: #ffffff; /* White text for About Me */
+  line-height: 1.6;
+  color: #ffffff;
 }
-
 
 /* Contact Section */
 #contact {
   padding: 60px 20px;
-  background-color: #000000; /* Black background to match Home */
-  color: #ffffff; /* White text for readability */
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
 }
 
 #contact h2 {
   font-size: 2em;
-  color: #b22222; /* Maroon heading for contrast */
+  color: #b22222;
   margin-bottom: 20px;
 }
 
@@ -109,7 +98,7 @@ p {
 }
 
 #contact a {
-  color: #159494; /* Teal links */
+  color: #159494;
   text-decoration: none;
   font-weight: bold;
 }
@@ -118,37 +107,10 @@ p {
   text-decoration: underline;
 }
 
-/* Optional Contact Form Styling */
-#contact form {
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 2px solid #941515; /* Maroon border */
-  border-radius: 8px;
-  background-color: #111111; /* Dark input background */
-  color: #ffffff;
-}
-
-#contact input[type="submit"] {
-  background-color: #eb6d20; /* Etsy-style orange */
-  color: #fff;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-#contact input[type="submit"]:hover {
-  background-color: #e85a4f;
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111111;
+  font-size: 0.9em;
 }
